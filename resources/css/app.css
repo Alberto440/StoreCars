@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* ************ */
+/* Personal css */
+/* ************ */
+#UserPrueba {
+    color: red;
+}
+
+/* View LiveWire -> car-search-type.blade */
+#BusquedaCar {
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #BusquedaCar {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .smResponsive {
+        text-align: center;
+    }
+}
+
+
+/* View admin/users/index.blade.php */
+@media only screen and (max-width: 760px) {
+    .smBreak{
+      word-break: break-all;
+    }
+}
+
